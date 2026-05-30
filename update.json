@@ -1,15 +1,11 @@
 {
-  "latest_version": "v69",
-  "minimum_version": "v68",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v69/CARDTRADELIB.exe",
-  "sha256": "aa94dc78db21af117ee6738ae28426b57f81b3d302ffb28adf0730a90263aa75",
+  "latest_version": "v70",
+  "minimum_version": "v70",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v70/CARDTRADELIB.exe",
+  "sha256": "2fb29759a3a3a6f3317f234ca8f570f89732a2d26c9163109d0748720e30bb11",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "1. 更新套用成功後 CMD 視窗會自動關閉",
-    "2. 更新套用失敗時只短暫停留約 8 秒，然後自動關閉",
-    "3. 錯誤資訊會寫入：config/update_downloads/apply_update_log.txt",
-    "4. 更新套用視窗改成最小化啟動，避免干擾使用者",
-    "5. 保留 v68 的安全更新流程：更新完成後不自動重啟新版 EXE"
+    "1. 授權伺服器失效修正"
   ]
 }

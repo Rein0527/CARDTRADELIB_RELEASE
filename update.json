@@ -1,13 +1,12 @@
 {
-  "latest_version": "v64",
+  "latest_version": "v65",
   "minimum_version": "v64",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v64/CARDTRADELIB_v64.rar",
-  "sha256": "6b9440d5ee13179470b0e0dac397f7ea1b1bf5d5ba88d7a5e1feabe7b5d3b5a0",
-  "file_name": "CARDTRADELIB.exe",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v65/CARDTRADELIB_v65.rar",
+  "sha256": "d5f37014d2436d2ed4649bdecf5568ca8083942efeecd9e176428c655a502408",
+  "file_name": "CARDTRADELIB_v65.exe",
   "force_update": false,
   "notes": [
-    "新增啟動時檢查更新功能",
-    "有新版時才提示",
-    "使用者同意後才下載並更新"
+    "更新內容：",
+    "- 新增聯絡作者資訊"
   ]
 }

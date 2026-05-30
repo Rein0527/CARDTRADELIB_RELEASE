@@ -1,11 +1,14 @@
 {
-  "latest_version": "v66",
-  "minimum_version": "v65",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v66/CARDTRADELIB.exe",
-  "sha256": "d3f2eeb6eefd6aed0208d74f607000687085a199efda86f9405d8ebd37a9b08e",
+  "latest_version": "v67",
+  "minimum_version": "v66",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v67/CARDTRADELIB.exe",
+  "sha256": "294a3fc45e15e3bda1cacefa26401eb05d34a771b848a26ae7ca7a764742f5af",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "更新器修正"
+    "1. 主視窗最低尺寸改為 720x480。",
+    "2. QTabWidget 啟用 tab 捲動與文字省略，避免分頁標籤撐大視窗寬度。",
+    "3. 每個分頁都包入 QScrollArea",
+    "4. 啟用/關於頁的長網址欄位允許縮小，超出內容改用捲軸處理。"
   ]
 }

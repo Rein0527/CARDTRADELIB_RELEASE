@@ -1,20 +1,15 @@
 {
-  "latest_version": "v68",
-  "minimum_version": "v67",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v68/CARDTRADELIB.exe",
-  "sha256": "d7b66d0e2326f8f8b52961a086fd791b82fdd736f9337292c93c440d2c5a076c",
+  "latest_version": "v69",
+  "minimum_version": "v68",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v69/CARDTRADELIB.exe",
+  "sha256": "aa94dc78db21af117ee6738ae28426b57f81b3d302ffb28adf0730a90263aa75",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "1. 「從露天匯入/更新」加入進度條",
-    "- 讀取露天商品清單",
-    "- 讀取上下架狀態",
-    "- 讀取商品明細",
-    "- 套用到本機資料",
-    "- 儲存並刷新畫面",
-    "2. 「更新選取商品狀態」加入進度條",
-    "3. 「上傳/更新露天卡圖」加入進度條",
-    "4. 「安全雙向同步」前段從露天匯入/更新時也會顯示進度",
-    "5. 更新套用器改成不自動重啟新版 EXE"
+    "1. 更新套用成功後 CMD 視窗會自動關閉",
+    "2. 更新套用失敗時只短暫停留約 8 秒，然後自動關閉",
+    "3. 錯誤資訊會寫入：config/update_downloads/apply_update_log.txt",
+    "4. 更新套用視窗改成最小化啟動，避免干擾使用者",
+    "5. 保留 v68 的安全更新流程：更新完成後不自動重啟新版 EXE"
   ]
 }

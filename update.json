@@ -1,8 +1,8 @@
 {
   "latest_version": "v70",
-  "minimum_version": "v70",
+  "minimum_version": "v64",
   "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v70/CARDTRADELIB.exe",
-  "sha256": "2fb29759a3a3a6f3317f234ca8f570f89732a2d26c9163109d0748720e30bb11",
+  "sha256": "4dd327e1ac3a1186069df50ceefb24a2ef4285732521554ef62e427e36e9471c",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [

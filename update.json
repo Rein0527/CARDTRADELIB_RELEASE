@@ -1,11 +1,19 @@
 {
-  "latest_version": "v70",
+  "latest_version": "v72",
   "minimum_version": "v64",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v70/CARDTRADELIB.exe",
-  "sha256": "4dd327e1ac3a1186069df50ceefb24a2ef4285732521554ef62e427e36e9471c",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v72/CARDTRADELIB.exe",
+  "sha256": "1bfa14ab4d376f677422319f7762276d4b70490d44d5620880891660fd887b47",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "1. 授權伺服器失效修正"
+    "1. 新增 Scryfall 本機資料表：scryfall_cards、scryfall_cache_meta",
+    "2. Scryfall 頁面新增搜尋模式：",
+    "3. Scryfall 頁面新增「更新本機DB」按鈕",
+    "4. 「更新本機DB」會下載 Scryfall default_cards bulk data，匯入 config/card_inventory.db",
+    "5. 匯入過程會顯示進度條",
+    "6. 搜尋預設先查 SQLite，本機沒有資料或沒結果時才使用 Scryfall API",
+    "7. 線上 API 查到的結果也會寫入 SQLite 快取",
+    "8. 露天反向匯入的 set_code + collector 查詢會先查本機 SQLite，再查 Scryfall API",
+    "9. 圖片仍維持 card_images / 縮圖快取，不將大圖塞入 SQLite"
   ]
 }

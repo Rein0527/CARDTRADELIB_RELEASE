@@ -1,19 +1,14 @@
 {
-  "latest_version": "v72",
+  "latest_version": "v80",
   "minimum_version": "v64",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v72/CARDTRADELIB.exe",
-  "sha256": "1bfa14ab4d376f677422319f7762276d4b70490d44d5620880891660fd887b47",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v80/CARDTRADELIB.exe",
+  "sha256": "5fd8b794f3e0ccb240406a587b407e1ce262b4da23962c7db4e1b481af092292",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "1. 新增 Scryfall 本機資料表：scryfall_cards、scryfall_cache_meta",
-    "2. Scryfall 頁面新增搜尋模式：",
-    "3. Scryfall 頁面新增「更新本機DB」按鈕",
-    "4. 「更新本機DB」會下載 Scryfall default_cards bulk data，匯入 config/card_inventory.db",
-    "5. 匯入過程會顯示進度條",
-    "6. 搜尋預設先查 SQLite，本機沒有資料或沒結果時才使用 Scryfall API",
-    "7. 線上 API 查到的結果也會寫入 SQLite 快取",
-    "8. 露天反向匯入的 set_code + collector 查詢會先查本機 SQLite，再查 Scryfall API",
-    "9. 圖片仍維持 card_images / 縮圖快取，不將大圖塞入 SQLite"
+    "1. 新增Yuyu-tei",
+    "2. 修正庫存頁與露天賣場頁之間的定位切頁。",
+    "3. Yuyu-tei庫存定位到露天賣場時，會自動切到露天賣場並選取對應商品。",
+    "4. 露天賣場新增「卡牌種類」篩選清單"
   ]
 }

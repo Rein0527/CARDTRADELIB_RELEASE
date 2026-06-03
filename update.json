@@ -1,14 +1,11 @@
 {
-  "latest_version": "v80",
-  "minimum_version": "v64",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v80/CARDTRADELIB.exe",
-  "sha256": "5fd8b794f3e0ccb240406a587b407e1ce262b4da23962c7db4e1b481af092292",
+  "latest_version": "v111",
+  "minimum_version": "v111",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v111/CARDTRADELIB.exe",
+  "sha256": "f17c8ef090bf7bf5b6dbc1c65ce304f88f5fa1690a6e57525fcb836e3669070e",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "1. 新增Yuyu-tei",
-    "2. 修正庫存頁與露天賣場頁之間的定位切頁。",
-    "3. Yuyu-tei庫存定位到露天賣場時，會自動切到露天賣場並選取對應商品。",
-    "4. 露天賣場新增「卡牌種類」篩選清單"
+    "Release Candidate"
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "latest_version": "v244",
-  "minimum_version": "v244",
-  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v244/CARDTRADELIB.exe",
-  "sha256": "10a846b51df33d8b0276197cab553da696783e5be47a3efab4df07c1c24201ff",
+  "latest_version": "v245",
+  "minimum_version": "v245",
+  "download_url": "https://github.com/Rein0527/CARDTRADELIB_RELEASE/releases/download/v245/CARDTRADELIB.exe",
+  "sha256": "5136c413cb4caa5bc26df7fd48b3fb244bacbfe23bb194cc913953b75dde9c41",
   "file_name": "CARDTRADELIB.exe",
   "force_update": true,
   "notes": [
-    "v244"
+    "v245"
   ]
 }
